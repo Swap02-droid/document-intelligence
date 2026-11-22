@@ -1,0 +1,21 @@
+# Core application
+fastapi==0.121.3
+uvicorn[standard]==0.38.0
+python-multipart==0.0.20
+pydantic==2.12.4
+pydantic-settings==2.11.0
+
+# Document processing
+Pillow==12.0.0
+pypdfium2==5.1.0
+
+# Structured exports
+pandas==2.3.3
+openpyxl==3.1.5
+
+# Local Mirage runtime (vision extra)
+cactus-compute[vision]==4.2.6
+
+# Test tooling
+pytest==9.0.1
+httpx==0.28.1
